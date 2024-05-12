@@ -1,4 +1,1 @@
-const factorial = (num) => {
-  if (num === 0) return 1;
-  return num * factorial(num - 1);
-};
+const initial = (arr) => arr.slice(0, -1);
